@@ -206,7 +206,7 @@ export default class Card extends Component {
                     />
                     <div className="row mx-3">  
                         <div className="col-lg-4 col-md-12 col-sm-12">
-                            <h3 className="font-weight-bold text-dark">
+                            <h3 className="font-weight-bold text-warning text-uppercase mb-3">
                                 Todo: [{newTodos.length}]
                             </h3>
                             <div className="todoOuter">
@@ -228,7 +228,7 @@ export default class Card extends Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12">
-                            <h3 className="font-weight-bold text-dark ">
+                            <h3 className="font-weight-bold text-danger text-uppercase mb-3">
                                 Inprogress: [{inProgressTodos.length}]
                             </h3>
                             <div className="inprogressOuter">
@@ -250,7 +250,7 @@ export default class Card extends Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12">
-                            <h3 className="font-weight-bold text-dark">
+                            <h3 className="font-weight-bold text-success text-uppercase mb-3">
                                 Completed: [{completedTodos.length}]
                             </h3>
                             <div className="completedOuter">
