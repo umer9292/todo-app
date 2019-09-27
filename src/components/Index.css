@@ -1,0 +1,71 @@
+.todoOuter {
+  border: 3px solid #f2bf25;
+  background-color: #dfd57e;
+
+  border-radius: 10px;
+}
+.inprogressOuter {
+  border: 3px solid #df3737;
+  background-color: #d76565;
+  border-radius: 10px; 
+}
+
+.completedOuter {
+  border: 3px solid #198425;
+  background-color: #66ae6e;
+  border-radius: 10px;
+}
+
+.todoIneerCard {
+  background-color: #e3d6a3   !important;
+  width: auto;
+  margin: 15px 15px 20px 15px;
+}
+.inprogressIneerCard {
+  background-color: #e6b0a0  !important;
+  width: auto;
+  margin: 15px 15px 20px 15px;
+}
+
+.completedIneerCard {
+  background-color: #bfceb0  !important;
+  width: auto;
+  margin: 15px 15px 20px 15px;
+}
+
+.card  p {
+  margin-bottom: 0
+}
+.underline {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
